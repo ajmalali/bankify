@@ -3,5 +3,10 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return <main>{children}</main>;
+  return (
+    <main>
+      Auth routes
+      {children}
+    </main>
+  );
 }
